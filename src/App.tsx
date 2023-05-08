@@ -10,14 +10,14 @@ function App() {
   return (
     <Box>
       <h1>Using toolkit ldv</h1>
-      <div style={{ display: "flex", gap: "22px", justifyContent: "center" }}>
+      <div style={{ display: "flex", gap: "1.5rem", justifyContent: "center" }}>
         <Button variant="contained" onClick={() => setCount(count + 1)}>
           Add
         </Button>
         <Button
           variant="contained"
           color="error"
-          onClick={() => setCount(count + 1)}
+          onClick={() => setCount(count - 1)}
         >
           Subtract
         </Button>
